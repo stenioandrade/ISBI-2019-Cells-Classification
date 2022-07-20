@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.decomposition import PCA
 from sklearn import svm, neighbors, ensemble
 from sklearn.metrics import classification_report, confusion_matrix
-from sklearn.datasets.samples_generator import make_blobs
+from sklearn.datasets import make_blobs
 from matplotlib import pyplot as plt
 from scipy.spatial import distance
 from mpl_toolkits.mplot3d import Axes3D

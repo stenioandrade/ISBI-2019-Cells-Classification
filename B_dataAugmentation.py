@@ -3,7 +3,7 @@ import numpy as np
 import os
 import shutil
 from rawDataHandler import getCellsImgPath, getPatientCellsPath, getPatientsIDs, getPatientCellsPath, getIdsALLPatients, getIdsHEMPatients
-from extractFeatures import removeBackground
+from dataAugmentation import removeBackground
 from pathlib import Path
 import multiprocessing
 

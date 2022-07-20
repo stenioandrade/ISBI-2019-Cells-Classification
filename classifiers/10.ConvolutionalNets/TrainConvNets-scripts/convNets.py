@@ -10,7 +10,7 @@ from keras.utils.vis_utils import plot_model
 from keras.applications.xception import Xception
 from keras.applications.mobilenet import MobileNet
 from keras.applications.inception_v3 import InceptionV3
-from keras.applications.resnet50 import ResNet50
+from keras.applications.resnet import ResNet50
 from keras.applications.vgg19 import VGG19
 from keras.applications.vgg16 import VGG16
 from keras import backend as K
